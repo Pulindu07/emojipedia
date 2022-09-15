@@ -1,3 +1,27 @@
+// import mongoose, { Schema } from "mongoose";
+// // const mongoose = require("mongoose");
+
+// mongoose.connect("mongodb+srv://admin-pulindu:Pulli269@cluster0.2vtgg4r.mongodb.net/emojiDB", { useNewUrlParser: true });
+// const emojiSchema = {
+//     key: Number,
+//     emoji: String,
+//     name: String,
+//     meaning: String
+// }
+
+// const Emoji = new mongoose.model("Emoji", emojiSchema);
+
+// const emojiOne = new Emoji({
+//     key: 1,
+//     emoji: "💪",
+//     name: "Tense Biceps",
+//     meaning:
+//         "“You can do that!” or “I feel strong!” Arm with tense biceps. Also used in connection with doing sports, e.g. at the gym."
+
+// });
+
+// emojiOne.save();
+
 const emojipedia = [
     {
         id: 1,
